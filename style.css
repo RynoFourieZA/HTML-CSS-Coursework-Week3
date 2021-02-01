@@ -1,22 +1,70 @@
-/*  Add your styling here */
+/*  Creating a mobile first website */
+body {
+    background-color: rgb(255, 230, 254);
+}
+.jumbotron {
+    di
+    height:220px;
+    margin-bottom:  0px;
+    padding: 1px 1px 1px 1px;
+}
+
 .navbar-brand {
-    width: 100px;
+    width: 150px;
+    height: 150px;
+    margin: auto;
 }
 
 .navbar-expand {
     -sm|-md|-lg|-xl|-xxl
 }
 
+.menu {
+    position: fixed;
+    top: 20px;
+  right: 20px;
+}
+
+.bottom-right {
+    padding: 0px 10px 0px 0px;
+}
+
 h1 {
-    font-size: 18px;
+    font-size: 30px;
+    color: rgb(241, 64, 167);
+    margin-bottom: 0%;
+    padding: 0px 0px 0px 0px;
+    text-align: right;
+    text-shadow: 2px 2px rgb(31, 30, 30);
 }
 
-p {
+.bottom-right > p {
+    font-family: 'Varela', sans-serif;
+    text-align: right;
+}
+
+h2 {
+    font-size: 24px;
+    margin-top: 10px;
+}
+
+.lead {
+    font-family: 'Varela', sans-serif;
     font-size: 14px;
+    color: rgb(23, 16, 90);
+    margin: 10px 10px 10px 10px;
 }
 
-.bottem-right {
+#xl-img {
+    width: 350px;
+    height: 350px;
+    margin: 0px 50px 0px 50px;
+} 
 
+.img-fluid {
+ margin: 10px 10px 10px 10px;
+ width: 200px;
+ height: 200px;
 }
 
 .lead {

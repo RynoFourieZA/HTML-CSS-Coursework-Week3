@@ -1,46 +1,104 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" shrink-to-fit=no">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"
+    shrink-to-fit=no">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>Responsive Cake webpage</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Varela&display=swap"
+      rel="stylesheet"
+    />
     <!--Bootstrap CSS-->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+      integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+      crossorigin="anonymous"
+    />
     <!-- Link to my css file -->
-    <link rel="stylesheet" href="/style.css">
-</head>
+    <link rel="stylesheet" href="/style.css" />
+  </head>
 
-<body>
-    <!-- Add your markup here -->
-    <!-- Just an image -->
+  <body>
     <div class="jumbotron">
-         <a class="navbar-brand" href="#">
-            <img src="https://cdn.dribbble.com/users/4388483/screenshots/14517547/media/d4f9f74bb5be41f8ff3b0d72225a1fac.jpg?compress=1&resize=400x300" alt="" width="100" height="100">
-            </a>
-        <div class="bottom-right">
-            <h1 class="text-uppercase">Smart Bakers</h1>      
-            <p>We Think, Plan And Bake The Smart Way.</p>
-        </div>
+      <a class="navbar-brand" href="#">
+        <img
+          src="/design/Smart Bakery Logo.png"
+          class="smart-img"
+          alt=""
+          width="150"
+          height="150"
+        />
+      </a>
+        <img src="design/menu-hamburger.svg" class="menu" alt="the menu button">
+      <div class="bottom-right">
+        <h1 class="text-uppercase">Smart Bakers</h1>
+        <p>We Think, Plan And Bake The Smart Way.</p>
+      </div>
     </div>
-<div>
-    <h2 class="text-uppercase">Welcome</h2>
-    <p class="lead">
-  Smart Bakers is a start-up bakery that is located in Zoar, Western Cape. Smart Bakers expects to catch the interest of a regular loyal customer base with its quirky and fun corporate image, and unusual flavour cupcakes.  The company aims to dominate the market in the Western Cape due to the owner’s industry experience and the lack of competition in the province.
-</p>
-</div>
-<div class="d-flex flex-wrap">
-    <img src="https://images.unsplash.com/photo-1607206608117-31f7a8a0ee46?ixid=MXwxMjA3fDB8MHxzZWFyY2h8MTM1fHxjYWtlfGVufDB8fDB8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" class="img-fluid" alt="Brown cake with assorted cole candies">
-    <img src="https://images.unsplash.com/photo-1610880693073-a10aa3c5b531?ixid=MXwxMjA3fDB8MHxzZWFyY2h8MTYzfHxjYWtlfGVufDB8fDB8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" class="img-fluid" alt="Pink and yellow happy birthday cake">
-    <img src="https://images.unsplash.com/photo-1598295971175-d4ec5d2ff678?ixid=MXwxMjA3fDB8MHxzZWFyY2h8MTY3fHxjYWtlfGVufDB8fDB8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" class="img-fluid" alt="White and pink wedding cake with white icing on top">
-    <img src="https://images.unsplash.com/photo-1503525642560-ecca5e2e49e9?ixid=MXwxMjA3fDB8MHxzZWFyY2h8MTczfHxjYWtlfGVufDB8fDB8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" class="img-fluid" alt="3-layer fondant cake">
-    <img src="https://images.unsplash.com/photo-1529554414872-37364ce1f349?ixid=MXwxMjA3fDB8MHxzZWFyY2h8MTgzfHxjYWtlfGVufDB8fDB8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" class="img-fluid" alt="Fruit pizza cake">
-</div>
+    <div>
+      <h2 class="text-uppercase">Welcome</h2>
+      <p class="lead">
+        Smart Bakers is a start-up bakery that is located in Zoar, Western Cape.
+        Smart Bakers expects to catch the interest of a regular loyal customer
+        base with its quirky and fun corporate image, and unusual flavour
+        cupcakes. The company aims to dominate the market in the Western Cape
+        due to the owner’s industry experience and the lack of competition in
+        the province.
+      </p>
+    </div>
+    <div class="d-flex flex-wrap">
+      <img
+        src="https://images.unsplash.com/photo-1607206608117-31f7a8a0ee46?ixid=MXwxMjA3fDB8MHxzZWFyY2h8MTM1fHxjYWtlfGVufDB8fDB8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
+        class="img-fluid"
+        id="xl-img"
+        alt="Brown cake with assorted cole candies"
+      />
+      <img
+        src="https://images.unsplash.com/photo-1610880693073-a10aa3c5b531?ixid=MXwxMjA3fDB8MHxzZWFyY2h8MTYzfHxjYWtlfGVufDB8fDB8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
+        class="img-fluid"
+        alt="Pink and yellow happy birthday cake"
+      />
+      <img
+        src="https://images.unsplash.com/photo-1598295971175-d4ec5d2ff678?ixid=MXwxMjA3fDB8MHxzZWFyY2h8MTY3fHxjYWtlfGVufDB8fDB8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
+        class="img-fluid"
+        alt="White and pink wedding cake with white icing on top"
+      />
+      <img
+        src="https://images.unsplash.com/photo-1503525642560-ecca5e2e49e9?ixid=MXwxMjA3fDB8MHxzZWFyY2h8MTczfHxjYWtlfGVufDB8fDB8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
+        class="img-fluid"
+        alt="3-layer fondant cake"
+      />
+      <img
+        src="https://images.unsplash.com/photo-1529554414872-37364ce1f349?ixid=MXwxMjA3fDB8MHxzZWFyY2h8MTgzfHxjYWtlfGVufDB8fDB8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
+        class="img-fluid"
+        alt="Fruit pizza cake"
+      />
+    </div>
+    <div class="modal-footer">
+      <button type="button" class="btn btn-secondary" data-dismiss="modal">
+        Close
+      </button>
+      <button type="button" class="btn btn-primary">Save changes</button>
+    </div>
 
-    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
-</body>
-
+    <script
+      src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+      integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+      integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+      integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>
