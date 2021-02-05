@@ -3,7 +3,6 @@ body {
     background-color: rgb(255, 230, 254);
 }
 .jumbotron {
-    di
     height:220px;
     margin-bottom:  0px;
     padding: 1px 1px 1px 1px;
@@ -23,6 +22,11 @@ body {
     position: fixed;
     top: 20px;
   right: 20px;
+}
+
+/*Not displaying the list items*/
+nav {
+ display:none   
 }
 
 .bottom-right {
@@ -69,4 +73,60 @@ h2 {
 
 .lead {
     font-size: 17px;
+}
+
+/* Breakpoint Tablets and smalldesktop screen size*/
+@media only screen and (min-width: 540px) {
+body {
+    background-color: rgb(197, 163, 170);
+}
+
+.menu {
+    display: none;
+}
+
+nav {
+ visibility: hidden;
+}
+
+.img-text-arrange {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.welcome-message {
+}
+
+.backcolor {
+    background-color: rgb(124, 107, 93);
+}
+
+}
+
+/* Breakpoint desktop screen size*/
+@media only screen and (min-width: 900px) {
+body {
+    background-color: rgb(243, 176, 189);
+}
+
+.menu {
+    display: none;
+}
+
+nav {
+     visibility: hidden;
+}
+
+.img-text-arrange {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.welcome-message {
+}
+
+.backcolor {
+    background-color: rgb(124, 107, 93);
+}
+
 }
